@@ -4,13 +4,13 @@
 
 ## Instalar NestJS
 
-```bash
+```sh
 $ npm install @nest/cli
 ```
 
 ## Inicializar un nuevo proyecto
 
-```bash
+```sh
 $ nest new <project_name>
 ```
 
@@ -31,6 +31,24 @@ $ npm run start:prod
 
 #### Crear un nuevo modulo
 
-```bash
-$ npm g mo <module_name>
+```sh
+$ nest g mo <module_name>
+```
+
+#### Crear un controlador
+
+```sh
+$ nest g co <controller_name>
+```
+
+#### Crear un controlador sin el archivo de testing
+
+```sh
+$ nest g co <controller_name> --no-spec
+```
+
+#### Crear un controlador dentro de un modulo especifico
+
+```sh
+$ nest g co <folder_module>
 ```
